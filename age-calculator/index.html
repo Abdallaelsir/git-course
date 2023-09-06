@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main class="container">
+
+<div class="box-1">
+  <aside>
+    <label for="input1" >Day</label>
+  <input type="number" placeholder="DD" min="1" max="31" id="input1">
+</aside>
+
+  <aside>
+  <label for="input2">Month</label>
+  <input type="number" placeholder="MM" min="1" max="12" id="input2" >
+</aside>
+
+  <aside>
+  <label for="input3">Year</label>
+  <input type="number" placeholder="YYYY" min="1900" max="2020" id="input3">
+</aside>
+  
+  
+  
+</div>
+
+<div class="box-2">
+  <p class="line">
+  </p>
+  <button onclick="calculate()" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+
+</div>
+
+<div class="box-3">
+  <aside>
+  <h1 id="years">--</h1>
+  <h1 class="text">years</h1>
+</aside>
+  <aside>
+  <h1 id="months">--</h1>
+  <h1 class="text">months</h1>
+</aside>
+  <aside>
+   <h1 id="days">--</h1>
+  <h1 class="text">days</h1>
+</aside>
+ 
+</div>
+
+
+</main>
+  
+
+  
+ 
+
+  
+
+   
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">abdalla </a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
